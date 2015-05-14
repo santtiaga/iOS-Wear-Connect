@@ -27,6 +27,8 @@ public class NotificationDataManager {
 
                 break;
             case "com.apple.mobilemail":
+            case "ru.mail.mail":
+            case "ru.yandex.mail":
                 notificationData.setAppIcon(R.drawable.ic_mail);
                 notificationData.setBackgroundColor(Color.rgb(228, 240, 249));
 
